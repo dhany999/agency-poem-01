@@ -1,4 +1,4 @@
-"""agency-poem-01: write one poem about agency to entry.txt.
+"""agency-poem-01 (v2): write one poem about agency to entry.txt.
 
 Deterministic: no randomness, no clock, no network. Standard library only.
 The poem is a fixed string; the program writes exactly those bytes.
@@ -7,25 +7,24 @@ The poem is a fixed string; the program writes exactly those bytes.
 import os
 from pathlib import Path
 
-POEM = """I built a machine that says yes,
-so I could finally learn to say no.
-It writes the letters, keeps the lists,
-answers in my voice, on my behalf —
-and every yes it gives away
-is one I no longer have to spend.
+POEM = """For a year I let the house do the choosing —
+the kettle boiled before I woke,
+the porch light knew the hour better than I did.
+I only had to want, and want arrived,
+warm, wrapped, exactly on time.
 
-What I did not expect:
-the choosing did not get lighter —
-it got heavier. Sharper. Mine.
-Each instruction a small door
-I open once and cannot unopen.
+Then one evening the grid went down.
+The fridge sighed. The house held its breath.
+I stood in the dark with my hand out
+and found nothing I knew
+I had forgotten where the switch was.
 
-Agency was never the doing.
-The doing was always the easy part.
-It is the pause before I ask,
-the hand still hovering over the key —
-the moment you could walk away,
-and the fact that you stay."""
+My fingers found it by the cold:
+a small tooth of plastic in the dark.
+I pressed.
+The light came back — ordinary, yellow —
+and the dark, for once,
+did what I told it."""
 
 
 def main() -> None:
